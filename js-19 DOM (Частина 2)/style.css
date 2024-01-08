@@ -1,0 +1,12 @@
+#gallery > li > img {
+	width: 50px;
+}
+
+#gallery {
+	list-style: none;
+	display: flex;
+}
+#gallery > li > img:hover {
+	transition: 1s;
+	width: 350px;
+}
